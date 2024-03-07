@@ -59,9 +59,9 @@
 		  
 		  
 		  <li class="nav-item">
-              <a href="cbuy_crops.php" class="nav-link">
+              <a href="gov.php" class="nav-link">
                 <span class="text-white nav-link-inner--text font-weight-bold"
-                  ><i class="text-white fas fa-shopping-cart"></i> Buy Crops</span
+                  ><i class="text-white fas fa-shopping-cart"></i>Gov Schemes</span
                 >
               </a>
             </li>
