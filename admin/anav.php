@@ -67,13 +67,13 @@
               </a>
             </li>
 			
-			<li class="nav-item">
+			<!-- <li class="nav-item">
               <a href="acustomers.php" class="nav-link">
                 <span class="text-white nav-link-inner--text font-weight-bold"
                   ><i class="text-white fas fa-users"></i> Customers</span
                 >
               </a>
-            </li>
+            </li> -->
 		
 		
 		      

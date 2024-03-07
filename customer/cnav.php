@@ -65,7 +65,7 @@
                 >
               </a>
             </li>
-			
+  
 			<li class="nav-item">
               <a href="cstock_crop.php" class="nav-link">
                 <span class="text-white nav-link-inner--text font-weight-bold"
