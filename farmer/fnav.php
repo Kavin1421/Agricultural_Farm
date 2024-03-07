@@ -94,7 +94,7 @@
 			
 
 		  
-			 <li class="nav-item" id="trade">
+			 <!-- <li class="nav-item" id="trade">
 			   <div class="dropdown show ">
 		  <a class="nav-link dropdown-toggle text-white " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		                  <span class="text-white nav-link-inner--text"
@@ -108,7 +108,7 @@
 			<a class="dropdown-item" href="fselling_history.php">Selling History​</a>
 		  </div>
 		</div>
-			</li>
+			</li> -->
 			
 
 			 
