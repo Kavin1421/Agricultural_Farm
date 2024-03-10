@@ -207,14 +207,14 @@
         </div>
 		
 		
-		        <div class="row align-items-center">
+		        <!-- <div class="row align-items-center">
 				  <div class="col-lg-6 col-10 mx-md-auto d-none d-md-block">
             <img class="ml-lg-5" src="assets/img/customers.png" width="80%">
-          </div>
+          </div> -->
      
 		
 		
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
 			
             <div class="info info-horizontal info-hover-warning mt-5">
               <div class="description pl-4">
@@ -223,7 +223,7 @@
               </div>
             </div>
       
-          </div>
+          </div> -->
    </div>
       </div>
     </div>
@@ -299,7 +299,7 @@
      
 	<!-- ======================================================================================================================================== -->
  
-	 
+<!-- 	 
 
  <div class="section features-6 text-dark bg-white" id="tech">
         <div class="container-fluid shado">
@@ -394,7 +394,7 @@
 
 
         </div>
-    </div>
+    </div> -->
 
 <?php require("footer.php");?>
 
