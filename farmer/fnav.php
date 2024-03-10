@@ -92,13 +92,8 @@
 		</div>
 			</li>
 			
-      <!-- <li class="nav-item">
-              <a href="../customer/gov.php" class="nav-link">
-                <span class="text-white nav-link-inner--text font-weight-bold"
-                  ><i class="text-white fas fa-shopping-cart"></i>Gov Schemes</span
-                >
-              </a>
-            </li> -->
+    
+      
 		  
 			 <li class="nav-item" id="trade">
 			   <div class="dropdown show ">
@@ -109,9 +104,10 @@
 		  </a>
 
 		   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-			<a class="dropdown-item" href="ftradecrops.php">Trade Crops​</a>
+			<!-- <a class="dropdown-item" href="ftradecrops.php">Trade Crops​</a>
 			<a class="dropdown-item" href="fstock_crop.php">Crop Stocks​</a>
-			<a class="dropdown-item" href="fselling_history.php">Selling History​</a>
+			<a class="dropdown-item" href="fselling_history.php">Selling History​</a> -->
+			<a class="dropdown-item" href="fgov.php">Gov Details​</a>
 		  </div>
 		</div>                                    
 			</li> 
