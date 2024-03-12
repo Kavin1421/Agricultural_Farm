@@ -1,3 +1,19 @@
+
+<?php
+include ('fsession.php');
+ini_set('memory_limit', '-1');
+
+if(!isset($_SESSION['farmer_login_user'])){
+header("location: ../index.php");} // Redirecting To Home Page
+$query4 = "SELECT * from farmerlogin where email='$user_check'";
+              $ses_sq4 = mysqli_query($conn, $query4);
+              $row4 = mysqli_fetch_assoc($ses_sq4);
+              $para1 = $row4['farmer_id'];
+              $para2 = $row4['farmer_name'];
+              
+			  
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -90,78 +106,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Government Schemes</title>
-    <link rel="stylesheet" href="indexamd.css">
-    <link rel="buttonscrpt" href="topbutton.js">
+    
+    <link rel="stylesheet" href="./indexamd.css">
+    <link rel="buttonscrpt" href="./topbutton.js">
+    
 
 </head>
-<!-- <body>
-    <a class="top-link hide" href="" id="js-top">
-
-    <span class="screen-reader-text">Back to Top</span>
-  </a>
-</body> -->
 
 
-
-<!-- Start mainmenu -->
-<!-- <header>
-	<div class="header">
-	 <a href="index.html" class="logo"><img style="height: 80px;" src="images/footer-logo.png" alt="logo"></a>
-	 <br>
-	  <div class="header-right">
-	   <div class="subnav">
-		   <button style="font-size: larger;" class="subnavbtn">Weather<i class="#"></i></button>
-		   <div class="subnav-content">
-		   <li><a href="weatherwebsite/index.html">Search</a></li>
-		   <li><a href="weatherwebsite/currentLocationW/index.html">Your Current Location</a></li>
-		   </div>
-	   </div>
-	   <div class="subnav">
-		   <button style="font-size: larger;" class="subnavbtn">Seeds<i class="#"></i></button>
-		   <div class="subnav-content">
-		   <li><a href="seed.html">Info on Seeds</a></li>
-		   <li><a href="seed price.html">Current Seeds Price</a></li>
-       <li><a href="Fertilizer.html">Fertilizer</a></li>
-		   </div>
-	   </div>
-	   <div class="subnav">
-      <button style="font-size: larger;" class="subnavbtn">Tech Knowledge<i class="#"></i></button>
-      <div class="subnav-content">
-      <li><a href="solarpanel.html">Solar Panel</a></li>
-      <li><a href="tech.html">Modern Day Tech</a></li>
-      </div>
-    </div>
-     <a style="font-size: larger;" href="Feedback.html">Feedback</a>
-	   </div>
-</div>
-
-</header> -->
-<!-- End mainmenu -->
-<?php
-include ('csession.php');
-include ('../sql.php');
-
-ini_set('memory_limit', '-1');
-
-if(!isset($_SESSION['customer_login_user'])){
-header("location: ../index.php");} // Redirecting To Home Page
-$query4 = "SELECT * from custlogin where email='$user_check'";
-              $ses_sq4 = mysqli_query($conn, $query4);
-              $row4 = mysqli_fetch_assoc($ses_sq4);
-              $para1 = $row4['cust_id'];
-              $para2 = $row4['cust_name'];
-		  
-?>
-<?php include ('cheader.php');  ?>
 
   <body class="bg-white" id="top">
-  
-<?php include ('cnav.php');  ?>
- 	
+
+  <?php include ('fheader.php');  ?>
+<?php include ('fnav.php');  ?>
 <div class="entire" style="color: aliceblue;">
 
      <h1 >
-      <b>GOVERMENT SCHEMES</b>
+      <b>GOVERMENT SCHEMES FOR FARMERS</b>
      </h1>
  <br>
  <br>
