@@ -76,7 +76,7 @@ $query4 = "SELECT * from farmerlogin where email='$user_check'";
                                    <td>
                                     	<div class="form-group">
 										<select  name="state" class="form-control" required>
-											<option value="Karnataka">Karnataka</option>
+											<option value="Karnataka">Tamilnadu</option>
 										</select>
 																				
 										</div>
@@ -86,16 +86,16 @@ $query4 = "SELECT * from farmerlogin where email='$user_check'";
 										<div class="form-group ">
 										<select id="district" name="district" class="form-control" required>
 										  <option value="">Select a district</option>
-										  <option value="BAGALKOT">Bagalkot</option>
-										  <option value="BANGALORE_RURAL">Bangalore Rural</option>
-										  <option value="BELGAUM">Belgaum</option>
-										  <option value="BELLARY">Bellary</option>
-										  <option value="BENGALURU_URBAN">Bengaluru Urban</option>
-										  <option value="BIDAR">Bidar</option>
-										  <option value="BIJAPUR">Bijapur</option>
-										  <option value="CHAMARAJANAGAR">Chamarajanagar</option>
-										  <option value="CHIKBALLAPUR">Chikballapur</option>
-										  <option value="CHIKMAGALUR">Chikmagalur</option>
+										  <option value="Chennai">Chennai</option>
+										  <option value="Trippur">Bangalore Rural</option>
+										  <option value="Karur">Karur</option>
+										  <option value="Erode">Erode</option>
+										  <option value="Thuthukudi">Thuthukudi</option>
+										  <option value="Ariyalur">Ariyalur</option>
+										  <option value="Thiruvannamalai">Thiruvannamalai</option>
+										  <option value="Krishnakiri">Krishnakiri</option>
+										  <option value="Dharmapuri">Dharmapuri</option>
+										  <!-- <option value="CHIKMAGALUR">Chikmagalur</option>
 										  <option value="CHITRADURGA">Chitradurga</option>
 										  <option value="DAKSHIN_KANNAD">Dakshin Kannad</option>
 										  <option value="DAVANGERE">Davangere</option>
@@ -115,7 +115,7 @@ $query4 = "SELECT * from farmerlogin where email='$user_check'";
 										  <option value="TUMKUR">Tumkur</option>
 										  <option value="UDUPI">Udupi</option>
 										  <option value="UTTAR_KANNAD">Uttar Kannad</option>
-										  <option value="YADGIR">Yadgir</option>
+										  <option value="YADGIR">Yadgir</option> -->
 										</select>
 
 										</div>
